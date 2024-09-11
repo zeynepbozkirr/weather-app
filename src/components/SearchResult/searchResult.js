@@ -8,7 +8,7 @@ import { useWeather } from '../../context/WeatherContex'
 import RingLoader from 'react-spinners/RingLoader'
 
 const SearchResult = ({ setSelectedDay, selectedDay }) => {
-  const { weatherData, isNotFound, loading } = useWeather()
+  const { weatherData, isNotFound, loading, city } = useWeather()
 
   const image = isNotFound ? invalid : noCity
   const title = isNotFound ? 'Does not Exist' : 'Select a City'

@@ -1,5 +1,9 @@
-.weatherTable {
+.contain {
   width: 50%;
+  border-collapse: collapse; 
+}
+.weatherTable {
+  width: 100%;
   border-collapse: collapse; 
 }
 
@@ -19,7 +23,12 @@
   color: white; 
 }
 
-/* Mobil uyumluluk için düzenleme */
+.cityName {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .weatherTable {
     width: 100%;
