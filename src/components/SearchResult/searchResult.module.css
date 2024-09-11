@@ -1,0 +1,30 @@
+.container {
+  margin-top: 50px;
+
+}
+.load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+}
+.searchResult{
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-evenly;
+
+}
+.WeatherDetailCard{
+  display: flex ;
+
+}
+
+
+@media (max-width: 768px) {
+  .searchResult{
+    display: flex;
+    flex-direction:column ;
+  }
+
+ 
+}

@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #296573;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    color: white;
+  }
+ 
+  .navbarLeft {
+    font-size: 24px;
+    width: 50%;
+  }
+  
+  .navbarRight .navbarLogo {
+    width: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    
+    .navbarLeft {
+      font-size: 18px;
+    }
+  
+    .navbarRight .navbarLogo {
+      width: 30px;
+    }
+  }
+  

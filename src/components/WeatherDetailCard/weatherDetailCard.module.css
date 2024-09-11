@@ -1,0 +1,46 @@
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 400px;
+    
+  }
+  .searchDiv{
+    display: flex;
+  }
+
+  .weatherDetail {
+    border-width: 4;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+  }
+  
+  .title{
+    color: #296573;
+    font-size: 35px;
+    } 
+
+    .city{
+    font-weight: bold;
+    }
+
+    .day{
+      font-weight: 300;
+    }
+
+    .state{
+      font-weight: 300;
+      padding-left: 10px;
+    }
+
+
+  @media (max-width: 768px) {
+    .weatherDetail {
+      padding: 10px;
+    }
+  }
+  
